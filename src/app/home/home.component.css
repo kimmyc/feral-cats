@@ -2,15 +2,14 @@
   text-align: center;
 }
 
-#infoBlurb{
+.infoBlurb{
   text-align: center;
+  margin: 10px 10%;
 }
 
-.ral-logo-img {
+#enterLotteryButton {
+  height: 100px;
   display: block;
-  margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 50px;
+  margin: 40px auto;
+  cursor: pointer;
 }
-
-
