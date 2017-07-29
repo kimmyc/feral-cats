@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 import { APP_ROUTES } from './app.routes';
 
 import { AppComponent } from './app.component';
@@ -17,12 +18,13 @@ import { ThankYouComponent } from './thank-you/thank-you.component';
     HomeComponent,
     LotteryComponent,
     AdminLoginComponent,
-    ThankYouComponent
+    ThankYouComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(APP_ROUTES)
   ],
   providers: [],
